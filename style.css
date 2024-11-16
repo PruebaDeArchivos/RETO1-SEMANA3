@@ -8,15 +8,14 @@ body {
   padding: 20px;
 }
 
-div {
+.contenedor {
   background-color: white;
   width: 800px;
   border-radius: 15px;
-}
-
-header {
   padding: 30px;
 }
+
+
 h1 {
   color: #333230;
   font-family: "Young Serif", serif;
@@ -34,12 +33,11 @@ header > p {
   color: #494948ea;
 }
 
-header > img {
-  width: 735px;
-  height: 300px;
+img {
+  width: 100%;
   border-radius: 15px;
 }
-
+/**/
 .secPreparation {
   padding-left: 35px;
   padding-bottom: 5px;
@@ -60,6 +58,8 @@ header > img {
   padding: 10px;
   color: #682946;
 }
+
+/**/
 
 .secIngredients > ul li {
   color: #494948ea;
